@@ -16,7 +16,7 @@ app.use(log);
 
 
 //Endpoints
-app.get("https://zebanodeserver.azurewebsites.net/api", function (req, res) {
+app.get("/", function (req, res) {
     return res.send("Hello World!");
 });
 
